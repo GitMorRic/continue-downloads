@@ -10,24 +10,24 @@
     "channel": "开发测试版"
   },
   "desktop": {
-    "version": "0.16.23",
-    "url": "https://github.com/GitMorRic/continue-downloads/releases/download/0.16.23/Continue_0.16.23_x64-setup.exe",
-    "checksumUrl": "https://github.com/GitMorRic/continue-downloads/releases/download/0.16.23/SHA256SUMS.txt",
+    "version": "0.16.24",
+    "url": "https://github.com/GitMorRic/continue-downloads/releases/download/0.16.24/Continue_0.16.24_x64-setup.exe",
+    "checksumUrl": "https://github.com/GitMorRic/continue-downloads/releases/download/0.16.24/SHA256SUMS.txt",
     "minimum": "Windows 10 / 11 · x64",
     "channel": "开发测试版"
   },
   "cloud": {
-    "version": "1.30",
-    "url": "https://github.com/GitMorRic/continue-downloads/releases/download/cloud-1.30-preview/Continue-Cloud-1.30-preview.zip",
-    "checksumUrl": "https://github.com/GitMorRic/continue-downloads/releases/download/cloud-1.30-preview/Continue-Cloud-1.30-preview.zip.sha256",
+    "version": "1.31",
+    "url": "https://github.com/GitMorRic/continue-downloads/releases/download/cloud-1.31-preview/Continue-Cloud-1.31-preview.zip",
+    "checksumUrl": "https://github.com/GitMorRic/continue-downloads/releases/download/cloud-1.31-preview/Continue-Cloud-1.31-preview.zip.sha256",
     "minimum": "Windows / Linux · Docker",
     "channel": "自托管开发测试版"
   },
   "firmware": {
-    "version": "1.0.41",
-    "url": "https://github.com/GitMorRic/continue-downloads/releases/download/firmware-1.0.41/Continue-Board-1.0.41.continue-firmware",
-    "checksumUrl": "https://github.com/GitMorRic/continue-downloads/releases/download/firmware-1.0.41/SHA256SUMS.txt",
+    "version": "1.0.42",
+    "url": "https://github.com/GitMorRic/continue-downloads/releases/download/firmware-1.0.42/Continue-Board-1.0.42.continue-firmware",
+    "checksumUrl": "https://github.com/GitMorRic/continue-downloads/releases/download/firmware-1.0.42/SHA256SUMS.txt",
     "status": "signed-preview",
-    "message": "独立云开发固件；先安装 Windows 0.16.23，再通过桌面“设备与连接 → USB更新”升级。仅适用 continue-2026-10-18 / SE0368，实机待验收。"
+    "message": "Wi-Fi 扫描和更新画面候选；先安装 Windows 0.16.24，再通过桌面“设备与连接 → USB 更新”升级。USB 期间屏幕保留画面；实机待验收。"
   }
 }
