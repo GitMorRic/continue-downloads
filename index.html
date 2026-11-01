@@ -1,0 +1,742 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="续行官方开发测试版下载：Android APK、Windows桌面、墨水屏固件和自托管云。"><title>下载续行 · Continue</title><style>.clp {
+  --clp-ink: #202320;
+  --clp-muted: #687069;
+  --clp-line: #dfe2dd;
+  background: #fafbf8;
+  color: var(--clp-ink);
+  font-family: Inter, "Segoe UI", "Microsoft YaHei", sans-serif;
+  line-height: 1.75;
+  min-height: 100vh;
+}
+.clp * {
+  box-sizing: border-box;
+}
+.clp a {
+  color: inherit;
+  text-decoration: none;
+}
+.clp button {
+  font: inherit;
+  cursor: pointer;
+}
+.clp a:focus-visible,
+.clp button:focus-visible,
+.clp summary:focus-visible {
+  outline: 3px solid #607264;
+  outline-offset: 5px;
+}
+.clp-nav {
+  max-width: 1280px;
+  margin: auto;
+  height: 92px;
+  padding: 0 44px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--clp-line);
+}
+.clp-brand {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+}
+.clp-brand svg {
+  width: 24px;
+}
+.clp-brand strong {
+  font-size: 23px;
+}
+.clp-brand > span {
+  font-family: Georgia, serif;
+  font-size: 17px;
+  margin-left: 5px;
+}
+.clp-nav nav {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  font-size: 14px;
+}
+.clp-signin {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.clp main {
+  max-width: 1280px;
+  margin: auto;
+}
+.clp-hero {
+  padding: 92px 44px 90px;
+  display: grid;
+  grid-template-columns: 1.1fr 1fr;
+  gap: 70px;
+  align-items: center;
+}
+.clp-kicker {
+  font-size: 11px;
+  letter-spacing: 0.19em;
+  font-weight: 600;
+  color: var(--clp-muted);
+}
+.clp-hero h1 {
+  font-size: clamp(36px, 3.8vw, 56px);
+  line-height: 1.35;
+  letter-spacing: -0.055em;
+  margin: 25px 0;
+}
+.clp-hero-copy > p {
+  font-size: 18px;
+  line-height: 1.95;
+  color: #5c655e;
+  max-width: 470px;
+}
+.clp-actions {
+  display: flex;
+  align-items: center;
+  gap: 27px;
+  flex-wrap: wrap;
+  margin: 32px 0 20px;
+}
+.clp-actions > a {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  font-size: 14px;
+}
+.clp .clp-primary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  border-radius: 5px;
+  padding: 13px 23px;
+  background: #27372e;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  border: 1px solid #27372e;
+}
+.clp .clp-primary:hover {
+  background: #17271e;
+}
+.clp-footnote {
+  display: block;
+  font-size: 12px !important;
+  color: var(--clp-muted);
+  line-height: 1.9 !important;
+}
+.clp-paper-stage {
+  position: relative;
+  padding: 10px 18px 0;
+}
+.clp-paper {
+  max-width: 410px;
+  margin: auto;
+  background: #fffef9;
+  border: 1px solid #d8dbd3;
+  box-shadow:
+    0 22px 60px #2633240b,
+    5px 6px 0 #eef0e9;
+  border-radius: 8px;
+  padding: 27px 29px 18px;
+  min-height: 442px;
+}
+.clp-paper-top {
+  display: flex;
+  justify-content: space-between;
+  font-family: Georgia, serif;
+  font-size: 15px;
+  border-bottom: 1px solid #cdd2c9;
+  padding-bottom: 16px;
+  margin-bottom: 26px;
+}
+.clp-paper-top > span:last-child {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  font:
+    11px "Segoe UI",
+    sans-serif;
+  color: #697265;
+}
+.clp-paper > small {
+  color: #6d7669;
+  font-size: 11px;
+}
+.clp-paper h2 {
+  font:
+    500 28px/1.45 Georgia,
+    "Songti SC",
+    "SimSun",
+    serif;
+  margin: 12px 0 25px;
+  letter-spacing: -0.02em;
+}
+.clp-paper-section {
+  padding: 15px 17px;
+  border: 1px solid #d9ddd3;
+  border-radius: 5px;
+  margin: 12px 0;
+}
+.clp-paper-section > span {
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  color: #68715f;
+}
+.clp-paper-section p {
+  font-size: 14px;
+  line-height: 1.9;
+  margin: 5px 0 0;
+}
+.clp-paper-section.next {
+  background: #f2f4ed;
+}
+.clp-paper footer {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  border-top: 1px solid #d7dccf;
+  margin-top: 24px;
+  padding-top: 14px;
+  font-size: 11px;
+}
+.clp-paper footer > span {
+  margin-left: auto;
+}
+.clp-sample-tabs {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 27px;
+}
+.clp-sample-tabs button {
+  background: transparent;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  color: #737b70;
+  font-size: 12px;
+  padding: 5px 10px;
+}
+.clp-sample-tabs button[aria-pressed="true"] {
+  border-color: #d3d8cc;
+  background: #fff;
+  color: #27372e;
+}
+.clp-illustration-note {
+  text-align: center;
+  font-size: 10px;
+  color: #81897d;
+  margin: 9px 0 0;
+}
+.clp-section {
+  padding: 80px 44px;
+  border-top: 1px solid var(--clp-line);
+}
+.clp-section-title {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 8px 60px;
+  align-items: end;
+}
+.clp-section-title .clp-kicker {
+  grid-column: 1 / -1;
+}
+.clp-section h2,
+.clp-device-section h2 {
+  font-size: 36px;
+  line-height: 1.4;
+  letter-spacing: -0.04em;
+  margin: 10px 0 20px;
+}
+.clp-section-title > p {
+  max-width: 400px;
+  color: var(--clp-muted);
+  font-size: 16px;
+  margin: 0 0 22px;
+}
+.clp-flow {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 28px;
+  margin-top: 35px;
+}
+.clp-flow article {
+  padding-top: 22px;
+  border-top: 1px solid #cdd4c8;
+}
+.clp-flow article > span {
+  font-size: 11px;
+  letter-spacing: 0.1em;
+  color: #87917f;
+  display: block;
+  margin-bottom: 24px;
+}
+.clp-flow svg {
+  width: 23px;
+  height: 23px;
+  stroke-width: 1.4;
+}
+.clp-flow h3 {
+  font-size: 19px;
+  margin: 13px 0 9px;
+}
+.clp-flow p {
+  font-size: 14px;
+  color: var(--clp-muted);
+  line-height: 1.9;
+  margin: 0;
+}
+.clp-device-section {
+  margin: 30px 44px 70px;
+  padding: 48px 44px;
+  background: #eef1ea;
+  border: 1px solid #e2e7dc;
+  border-radius: 8px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 70px;
+}
+.clp-device-section > div > p {
+  font-size: 15px;
+  color: #586653;
+  line-height: 1.9;
+}
+.clp-device-section .clp-primary {
+  margin-top: 18px;
+}
+.clp-device-steps {
+  list-style: none;
+  padding: 0;
+  margin: 8px 0;
+  display: grid;
+  align-content: center;
+  gap: 24px;
+}
+.clp-device-steps li {
+  display: flex;
+  gap: 18px;
+  align-items: flex-start;
+}
+.clp-device-steps li > span {
+  border: 1px solid #c3cdb9;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  flex: none;
+  text-align: center;
+  font-size: 12px;
+  line-height: 28px;
+}
+.clp-device-steps h3 {
+  font-size: 16px;
+  margin: 0;
+}
+.clp-device-steps p {
+  font-size: 13px;
+  color: #6a7662;
+  margin: 5px 0;
+  line-height: 1.9;
+}
+.clp-privacy {
+  display: grid;
+  grid-template-columns: 1fr 1.4fr;
+  gap: 55px;
+}
+.clp-privacy p {
+  font-size: 14px;
+  color: #646f5f;
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+  margin: 5px 0 20px;
+}
+.clp-privacy svg {
+  flex: none;
+  width: 15px;
+  margin-top: 5px;
+}
+.clp-privacy a {
+  font-size: 13px;
+  border-bottom: 1px solid #a8b59e;
+}
+.clp-faq details {
+  border-bottom: 1px solid var(--clp-line);
+  padding: 20px 0;
+  max-width: 900px;
+}
+.clp-faq summary {
+  cursor: pointer;
+  font-size: 16px;
+}
+.clp-faq details p {
+  font-size: 14px;
+  color: var(--clp-muted);
+  max-width: 750px;
+  margin: 15px 0 5px;
+}
+.clp-bottom {
+  text-align: center;
+  padding: 85px 30px 110px;
+  border-top: 1px solid var(--clp-line);
+}
+.clp-bottom h2 {
+  font-size: 40px;
+  line-height: 1.45;
+  letter-spacing: -0.04em;
+  margin: 20px 0 28px;
+}
+.clp-footer {
+  max-width: 1280px;
+  border-top: 1px solid var(--clp-line);
+  margin: auto;
+  padding: 32px 44px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  align-items: center;
+  font-size: 13px;
+}
+.clp-footer nav {
+  margin-left: auto;
+  display: flex;
+  gap: 20px;
+}
+.clp-footer small {
+  color: #838a7e;
+  width: 100%;
+  font-size: 11px;
+}
+.clp-help {
+  padding: 70px 44px 100px;
+  max-width: 900px !important;
+}
+.clp-help h1 {
+  font-size: 44px;
+  line-height: 1.4;
+  letter-spacing: -0.04em;
+}
+.clp-help-lead {
+  font-size: 18px;
+  color: var(--clp-muted);
+  margin-bottom: 50px;
+}
+.clp-help section {
+  padding: 30px 0;
+  border-top: 1px solid var(--clp-line);
+  scroll-margin-top: 25px;
+}
+.clp-help h2 {
+  font-size: 23px;
+}
+.clp-help p,
+.clp-help li,
+.clp-help dd {
+  font-size: 15px;
+  color: #596452;
+  line-height: 1.95;
+}
+.clp-help a:not(.clp-primary) {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+.clp-help code {
+  font-size: 12px;
+  background: #edf0e9;
+  padding: 3px 5px;
+  overflow-wrap: anywhere;
+}
+.clp-help dt {
+  font-weight: 600;
+  margin-top: 20px;
+}
+.clp-help dd {
+  margin: 7px 0 0;
+}
+@media (max-width: 900px) {
+  .clp-hero {
+    gap: 28px;
+    padding-top: 55px;
+  }
+  .clp-hero h1 {
+    font-size: 37px;
+  }
+  .clp-nav {
+    padding: 0 25px;
+  }
+  .clp-nav nav {
+    gap: 18px;
+  }
+  .clp-hero,
+  .clp-section {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  .clp-device-section {
+    margin-left: 25px;
+    margin-right: 25px;
+    padding: 32px;
+    gap: 35px;
+  }
+  .clp-flow {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 35px;
+  }
+  .clp-paper-stage {
+    padding: 0;
+  }
+  .clp-paper {
+    padding: 22px;
+  }
+  .clp-paper h2 {
+    font-size: 24px;
+  }
+}
+@media (max-width: 640px) {
+  .clp-nav {
+    height: 74px;
+    padding: 0 20px;
+  }
+  .clp-nav nav {
+    gap: 16px;
+  }
+  .clp-nav nav > a[href^="#"] {
+    display: none;
+  }
+  .clp-brand > span {
+    display: none;
+  }
+  .clp-hero {
+    grid-template-columns: 1fr;
+    padding: 48px 22px 50px;
+    gap: 45px;
+  }
+  .clp-hero h1 {
+    font-size: 36px;
+  }
+  .clp-hero-copy > p {
+    font-size: 16px;
+  }
+  .clp-paper {
+    max-width: 360px;
+    min-height: 420px;
+  }
+  .clp-section {
+    padding: 50px 22px;
+  }
+  .clp-section-title,
+  .clp-privacy {
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+  .clp-section h2,
+  .clp-device-section h2 {
+    font-size: 29px;
+  }
+  .clp-section-title > p {
+    font-size: 14px;
+  }
+  .clp-flow {
+    gap: 25px;
+  }
+  .clp-flow p {
+    font-size: 13px;
+  }
+  .clp-device-section {
+    grid-template-columns: 1fr;
+    margin: 15px 18px 45px;
+    padding: 29px 24px;
+    gap: 25px;
+  }
+  .clp-footer {
+    padding: 25px 22px;
+    gap: 18px;
+  }
+  .clp-footer nav {
+    margin: 0;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+  .clp-bottom {
+    padding: 60px 22px;
+  }
+  .clp-bottom h2 {
+    font-size: 32px;
+  }
+  .clp-help {
+    padding: 40px 22px 60px;
+  }
+  .clp-help h1 {
+    font-size: 34px;
+  }
+}
+
+.download-page {
+  max-width: 1200px !important;
+  padding: 60px 32px 90px !important;
+}
+.download-heading {
+  max-width: 750px;
+  margin-bottom: 44px;
+}
+.download-heading h1 {
+  font-size: 44px;
+  line-height: 1.35;
+  letter-spacing: -0.04em;
+  margin: 16px 0;
+}
+.download-heading p {
+  color: #687069;
+}
+.download-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+}
+.download-card {
+  background: #fff;
+  border: 1px solid #dfe2dd;
+  border-radius: 12px;
+  padding: 32px;
+  min-width: 0;
+  scroll-margin-top: 20px;
+}
+.download-card.featured {
+  border-color: #aebdad;
+}
+.download-card > svg {
+  display: block;
+  width: 26px;
+  height: 26px;
+  margin-bottom: 18px;
+}
+.download-tag {
+  font-size: 12px;
+  color: #687069;
+}
+.download-card h2 {
+  font-size: 28px;
+  margin: 8px 0;
+}
+.download-card p {
+  color: #586159;
+}
+.download-card .clp-primary {
+  margin: 15px 0 18px;
+  font-size: 15px;
+  padding: 12px 18px;
+}
+.download-card ol {
+  padding-left: 21px;
+  line-height: 1.9;
+}
+.download-card li {
+  margin-bottom: 8px;
+}
+.download-card details {
+  font-size: 13px;
+  margin-top: 18px;
+}
+.download-card code {
+  display: block;
+  overflow-wrap: anywhere;
+  padding: 10px 0;
+}
+.download-muted {
+  font-size: 13px !important;
+  color: #687069 !important;
+}
+.download-share {
+  margin: 32px 0;
+  display: grid;
+  grid-template-columns: 240px 1fr;
+  gap: 40px;
+  align-items: center;
+  border: 1px solid #dfe2dd;
+  border-radius: 12px;
+  padding: 28px;
+  background: #f0f3ed;
+}
+.download-share h2 {
+  font-size: 28px;
+  margin: 8px 0;
+}
+.download-share img {
+  display: block;
+  width: 220px;
+  height: 220px;
+  border-radius: 8px;
+  background: #fff;
+}
+.download-share a {
+  overflow-wrap: anywhere;
+  text-decoration: underline;
+}
+.download-share button {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: #fff;
+  border: 1px solid #b7c1b5;
+  padding: 9px 15px;
+  border-radius: 6px;
+}
+.download-selfhost {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+  border-top: 1px solid #dfe2dd;
+  border-bottom: 1px solid #dfe2dd;
+  padding: 28px 0;
+  margin: 36px 0;
+}
+.download-selfhost h2 {
+  font-size: 23px;
+  margin: 4px 0;
+}
+.download-selfhost a {
+  white-space: nowrap;
+  text-decoration: underline;
+}
+.download-card a:not(.clp-primary) {
+  text-decoration: underline;
+}
+@media (max-width: 700px) {
+  .download-page {
+    padding: 32px 18px 60px !important;
+  }
+  .download-heading h1 {
+    font-size: 31px;
+  }
+  .download-grid {
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+  .download-card {
+    padding: 24px;
+  }
+  .download-share {
+    grid-template-columns: 1fr;
+    gap: 12px;
+    padding: 24px;
+  }
+  .download-share img {
+    margin: auto;
+  }
+  .download-selfhost {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 8px;
+  }
+  .download-page .clp-primary {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    box-sizing: border-box;
+  }
+}
+
+body{margin:0}.clp-nav a{color:inherit}.download-page .clp-primary{display:inline-flex;gap:9px;align-items:center;background:#27372e;color:white;padding:12px 18px;border-radius:5px;text-decoration:none}.download-page .download-share img{width:220px;height:220px}</style></head><body><div class="clp"><header class="clp-nav"><a class="clp-brand" href="./"><strong>↳ 续行</strong><span>Continue.</span></a><nav><a href="https://github.com/GitMorRic/continue-downloads/releases">版本记录</a></nav></header><main class="download-page"><header class="download-heading"><span class="clp-kicker">DOWNLOAD / 开发测试版</span><h1>在你手边的设备上，<br>接着记录。</h1><p>下载安装，然后连接自己的续行云工作区。这里仅提供安装包，不保存账号与笔记。</p></header><div class="download-grid"><article class="download-card featured" id="android"><span class="download-tag">Redmi K80 与兼容安卓手机</span><h2>Android</h2><p>0.3.0-dev · Android 13 及以上</p><a class="clp-primary" href="https://github.com/GitMorRic/continue-downloads/releases/download/android-0.3.0-dev/Continue-Android-0.3.0-dev.apk">下载 Android APK ↓</a><ol><li>在手机浏览器下载，点开 APK 安装。</li><li>系统若询问安装来源，按提示允许当前浏览器安装应用。</li><li>打开续行先离线记录；需要云端时，进入云工作区填写自己的 HTTPS 服务地址并登录。</li></ol><p class="download-muted">覆盖安装保留原应用数据。签名不匹配时先保留旧应用并核对来源。</p><details><summary>SHA256 文件校验</summary><code>5b555ca7bb6888360795e134ecc87407358e9710146f86092e98caeb2e8aca61</code></details></article><article class="download-card" id="iphone"><span class="download-tag">iPhone / iPad / 浏览器</span><h2>使用网页版</h2><p>在 Safari 打开你部署的续行 HTTPS 地址，登录同一账号即可查看记录、追加照片和讨论。</p><p>从分享菜单选择“添加到主屏幕”，之后从桌面图标进入。</p><a href="https://support.apple.com/guide/iphone/open-as-web-app-iphea86e5236/ios">Apple 的主屏幕安装说明 ↗</a><p class="download-muted">当前没有原生 iOS 安装包。此下载站不是云工作区；localhost 只指向当前设备，不能填作远程服务器。</p></article></div><section class="download-share"><img src="download-qr.svg" alt="续行公开下载页二维码" width="220" height="220"><div><span class="clp-kicker">从电脑发到手机</span><h2>扫一下，就到下载页。</h2><p>只分享公开下载地址，不包含账号或设备凭据。</p><a href="https://gitmorric.github.io/continue-downloads/">https://gitmorric.github.io/continue-downloads/</a></div></section><div class="download-grid"><article class="download-card" id="desktop"><h2>Windows 桌面版</h2><p>0.16.23 · Windows 10 / 11 · x64</p><a class="clp-primary" href="https://github.com/GitMorRic/continue-downloads/releases/download/0.16.23/Continue_0.16.23_x64-setup.exe">下载 Windows 安装包 ↓</a><p>保存正在编辑的内容，退出旧应用后运行安装程序。安装后可以使用本机记录、Obsidian 和设备 USB 更新。</p><a href="https://github.com/GitMorRic/continue-downloads/releases/download/0.16.23/SHA256SUMS.txt">校验文件</a></article><article class="download-card" id="firmware"><h2>墨水屏固件</h2><p>1.0.41 · 已签名开发测试版</p><a class="clp-primary" href="https://github.com/GitMorRic/continue-downloads/releases/download/firmware-1.0.41/Continue-Board-1.0.41.continue-firmware">下载固件包 ↓</a><p>独立云开发固件；先安装 Windows 0.16.23，再通过桌面“设备与连接 → USB更新”升级。仅适用 continue-2026-10-18 / SE0368，实机待验收。</p><p class="download-muted">按桌面应用提示备份和升级。当前为测试版，物理按键、供电、存储及联网需逐台验收。</p><a href="https://github.com/GitMorRic/continue-downloads/releases/download/firmware-1.0.41/SHA256SUMS.txt">校验文件</a></article></div><section class="download-selfhost"><div><h2>自己的云工作区</h2><p>1.30 · Windows / Linux · Docker。云服务器需持续在线。</p></div><a href="https://github.com/GitMorRic/continue-downloads/releases/download/cloud-1.30-preview/Continue-Cloud-1.30-preview.zip">下载自托管包 →</a></section><details><summary>自托管怎么开始？</summary><p>准备能够访问的 HTTPS 域名和 Docker 主机，解压自托管包，按 deploy/README.md 操作。Windows 使用 deploy/install.ps1，Linux 使用 deploy/install.sh。然后在手机、桌面登录该服务，首次通过电脑 USB 绑定墨水屏。语音识别与大模型需要分别配置。</p></details><p class="download-muted">开发预览：软件与模拟链路已验证，真实手机、墨水屏和付费供应商需分别验收。本页不会触发设备刷机或自动安装。</p></main></div></body></html>
