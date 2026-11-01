@@ -10,11 +10,11 @@
     "channel": "开发测试版"
   },
   "desktop": {
-    "version": "0.16.24",
-    "url": "https://github.com/GitMorRic/continue-downloads/releases/download/0.16.24/Continue_0.16.24_x64-setup.exe",
-    "checksumUrl": "https://github.com/GitMorRic/continue-downloads/releases/download/0.16.24/SHA256SUMS.txt",
+    "version": "0.16.25",
+    "url": "https://github.com/GitMorRic/continue-downloads/releases/download/0.16.25/Continue_0.16.25_x64-setup.exe",
+    "checksumUrl": "https://github.com/GitMorRic/continue-downloads/releases/download/0.16.25/SHA256SUMS.txt",
     "minimum": "Windows 10 / 11 · x64",
-    "channel": "开发测试版"
+    "channel": "应用内更新版"
   },
   "cloud": {
     "version": "1.31",
@@ -28,6 +28,6 @@
     "url": "https://github.com/GitMorRic/continue-downloads/releases/download/firmware-1.0.42/Continue-Board-1.0.42.continue-firmware",
     "checksumUrl": "https://github.com/GitMorRic/continue-downloads/releases/download/firmware-1.0.42/SHA256SUMS.txt",
     "status": "signed-preview",
-    "message": "Wi-Fi 扫描和更新画面候选；先安装 Windows 0.16.24，再通过桌面“设备与连接 → USB 更新”升级。USB 期间屏幕保留画面；实机待验收。"
+    "message": "Wi-Fi 扫描和更新画面候选；先安装 Windows 0.16.25，再通过桌面“设备与连接 → USB 更新”升级。USB 期间屏幕保留画面；实机待验收。"
   }
 }
