@@ -17,9 +17,9 @@
     "channel": "应用内更新版"
   },
   "cloud": {
-    "version": "1.31",
-    "url": "https://github.com/GitMorRic/continue-downloads/releases/download/cloud-1.31-preview/Continue-Cloud-1.31-preview.zip",
-    "checksumUrl": "https://github.com/GitMorRic/continue-downloads/releases/download/cloud-1.31-preview/Continue-Cloud-1.31-preview.zip.sha256",
+    "version": "1.33",
+    "url": "https://github.com/GitMorRic/continue-downloads/releases/download/cloud-1.33-preview/Continue-Cloud-1.33-preview.zip",
+    "checksumUrl": "https://github.com/GitMorRic/continue-downloads/releases/download/cloud-1.33-preview/Continue-Cloud-1.33-preview.zip.sha256",
     "minimum": "Windows / Linux · Docker",
     "channel": "自托管开发测试版"
   },
