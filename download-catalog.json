@@ -10,24 +10,24 @@
     "channel": "开发测试版"
   },
   "desktop": {
-    "version": "0.16.31",
-    "url": "https://github.com/GitMorRic/continue-downloads/releases/download/0.16.31/Continue_0.16.31_x64-setup.exe",
-    "checksumUrl": "https://github.com/GitMorRic/continue-downloads/releases/download/0.16.31/SHA256SUMS.txt",
+    "version": "0.16.32",
+    "url": "https://github.com/GitMorRic/continue-downloads/releases/download/0.16.32/Continue_0.16.32_x64-setup.exe",
+    "checksumUrl": "https://github.com/GitMorRic/continue-downloads/releases/download/0.16.32/SHA256SUMS.txt",
     "minimum": "Windows 10 / 11 · x64",
     "channel": "应用内更新版"
   },
   "cloud": {
-    "version": "1.34",
-    "url": "https://github.com/GitMorRic/continue-downloads/releases/download/cloud-1.34-preview/Continue-Cloud-1.34-preview.zip",
-    "checksumUrl": "https://github.com/GitMorRic/continue-downloads/releases/download/cloud-1.34-preview/Continue-Cloud-1.34-preview.zip.sha256",
+    "version": "1.35",
+    "url": "https://github.com/GitMorRic/continue-downloads/releases/download/cloud-1.35-preview/Continue-Cloud-1.35-preview.zip",
+    "checksumUrl": "https://github.com/GitMorRic/continue-downloads/releases/download/cloud-1.35-preview/Continue-Cloud-1.35-preview.zip.sha256",
     "minimum": "Windows / Linux · Docker",
     "channel": "自托管开发测试版"
   },
   "firmware": {
-    "version": "1.0.45",
-    "url": "https://github.com/GitMorRic/continue-downloads/releases/download/firmware-1.0.45/Continue-Board-1.0.45.continue-firmware",
-    "checksumUrl": "https://github.com/GitMorRic/continue-downloads/releases/download/firmware-1.0.45/SHA256SUMS.txt",
+    "version": "1.0.46",
+    "url": "https://github.com/GitMorRic/continue-downloads/releases/download/firmware-1.0.46/Continue-Board-1.0.46.continue-firmware",
+    "checksumUrl": "https://github.com/GitMorRic/continue-downloads/releases/download/firmware-1.0.46/SHA256SUMS.txt",
     "status": "signed-preview",
-    "message": "独立 Wi-Fi 校时与底部状态栏，顶部留给正文；安装 Windows 0.16.31 后单独更新设备。原音仍在内存时先保存再更新；实机校时与刷屏待验收。"
+    "message": "云设备可整理接续卡和生成未发表草稿；需要云 1.35 与 Windows 0.16.32。原话保留，旧录音手势不变。原音仍在内存时先保存；真实模型与实机待验收。"
   }
 }
