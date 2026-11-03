@@ -10,9 +10,9 @@
     "channel": "开发测试版"
   },
   "desktop": {
-    "version": "0.16.32",
-    "url": "https://github.com/GitMorRic/continue-downloads/releases/download/0.16.32/Continue_0.16.32_x64-setup.exe",
-    "checksumUrl": "https://github.com/GitMorRic/continue-downloads/releases/download/0.16.32/SHA256SUMS.txt",
+    "version": "0.16.33",
+    "url": "https://github.com/GitMorRic/continue-downloads/releases/download/0.16.33/Continue_0.16.33_x64-setup.exe",
+    "checksumUrl": "https://github.com/GitMorRic/continue-downloads/releases/download/0.16.33/SHA256SUMS.txt",
     "minimum": "Windows 10 / 11 · x64",
     "channel": "应用内更新版"
   },
