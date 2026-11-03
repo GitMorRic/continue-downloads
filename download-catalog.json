@@ -10,9 +10,9 @@
     "channel": "开发测试版"
   },
   "desktop": {
-    "version": "0.16.30",
-    "url": "https://github.com/GitMorRic/continue-downloads/releases/download/0.16.30/Continue_0.16.30_x64-setup.exe",
-    "checksumUrl": "https://github.com/GitMorRic/continue-downloads/releases/download/0.16.30/SHA256SUMS.txt",
+    "version": "0.16.31",
+    "url": "https://github.com/GitMorRic/continue-downloads/releases/download/0.16.31/Continue_0.16.31_x64-setup.exe",
+    "checksumUrl": "https://github.com/GitMorRic/continue-downloads/releases/download/0.16.31/SHA256SUMS.txt",
     "minimum": "Windows 10 / 11 · x64",
     "channel": "应用内更新版"
   },
@@ -24,10 +24,10 @@
     "channel": "自托管开发测试版"
   },
   "firmware": {
-    "version": "1.0.44",
-    "url": "https://github.com/GitMorRic/continue-downloads/releases/download/firmware-1.0.44/Continue-Board-1.0.44.continue-firmware",
-    "checksumUrl": "https://github.com/GitMorRic/continue-downloads/releases/download/firmware-1.0.44/SHA256SUMS.txt",
+    "version": "1.0.45",
+    "url": "https://github.com/GitMorRic/continue-downloads/releases/download/firmware-1.0.45/Continue-Board-1.0.45.continue-firmware",
+    "checksumUrl": "https://github.com/GitMorRic/continue-downloads/releases/download/firmware-1.0.45/SHA256SUMS.txt",
     "status": "signed-preview",
-    "message": "设备选择接续终端、首页设置与 Android 加密 Wi-Fi 配网；先安装 Windows 0.16.30。若原音仍在内存中，先恢复同步并等待保存后再更新；墨水屏及 K80 实机待验收。"
+    "message": "独立 Wi-Fi 校时与底部状态栏，顶部留给正文；安装 Windows 0.16.31 后单独更新设备。原音仍在内存时先保存再更新；实机校时与刷屏待验收。"
   }
 }
