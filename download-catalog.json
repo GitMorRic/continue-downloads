@@ -3,31 +3,31 @@
   "publicPage": "https://gitmorric.github.io/continue-downloads/",
   "repository": "GitMorRic/continue-downloads",
   "android": {
-    "version": "0.3.0-dev",
-    "url": "https://github.com/GitMorRic/continue-downloads/releases/download/android-0.3.0-dev/Continue-Android-0.3.0-dev.apk",
-    "sha256": "5b555ca7bb6888360795e134ecc87407358e9710146f86092e98caeb2e8aca61",
+    "version": "0.4.0-dev",
+    "url": "https://github.com/GitMorRic/continue-downloads/releases/download/android-0.4.0-dev/Continue-Android-0.4.0-dev.apk",
+    "sha256": "3d97af05e4c2977d624c999ea4d68b0398c45b246696b7f281716dfc1e18773b",
     "minimum": "Android 13 及以上",
     "channel": "开发测试版"
   },
   "desktop": {
-    "version": "0.16.29",
-    "url": "https://github.com/GitMorRic/continue-downloads/releases/download/0.16.29/Continue_0.16.29_x64-setup.exe",
-    "checksumUrl": "https://github.com/GitMorRic/continue-downloads/releases/download/0.16.29/SHA256SUMS.txt",
+    "version": "0.16.30",
+    "url": "https://github.com/GitMorRic/continue-downloads/releases/download/0.16.30/Continue_0.16.30_x64-setup.exe",
+    "checksumUrl": "https://github.com/GitMorRic/continue-downloads/releases/download/0.16.30/SHA256SUMS.txt",
     "minimum": "Windows 10 / 11 · x64",
     "channel": "应用内更新版"
   },
   "cloud": {
-    "version": "1.33",
-    "url": "https://github.com/GitMorRic/continue-downloads/releases/download/cloud-1.33-preview/Continue-Cloud-1.33-preview.zip",
-    "checksumUrl": "https://github.com/GitMorRic/continue-downloads/releases/download/cloud-1.33-preview/Continue-Cloud-1.33-preview.zip.sha256",
+    "version": "1.34",
+    "url": "https://github.com/GitMorRic/continue-downloads/releases/download/cloud-1.34-preview/Continue-Cloud-1.34-preview.zip",
+    "checksumUrl": "https://github.com/GitMorRic/continue-downloads/releases/download/cloud-1.34-preview/Continue-Cloud-1.34-preview.zip.sha256",
     "minimum": "Windows / Linux · Docker",
     "channel": "自托管开发测试版"
   },
   "firmware": {
-    "version": "1.0.43",
-    "url": "https://github.com/GitMorRic/continue-downloads/releases/download/firmware-1.0.43/Continue-Board-1.0.43.continue-firmware",
-    "checksumUrl": "https://github.com/GitMorRic/continue-downloads/releases/download/firmware-1.0.43/SHA256SUMS.txt",
+    "version": "1.0.44",
+    "url": "https://github.com/GitMorRic/continue-downloads/releases/download/firmware-1.0.44/Continue-Board-1.0.44.continue-firmware",
+    "checksumUrl": "https://github.com/GitMorRic/continue-downloads/releases/download/firmware-1.0.44/SHA256SUMS.txt",
     "status": "signed-preview",
-    "message": "录音空间保护及连接、转写状态提示候选；先安装 Windows 0.16.29。若有原音仍在内存中，先恢复同步并等待保存后再更新；候选固件实机待验收。"
+    "message": "设备选择接续终端、首页设置与 Android 加密 Wi-Fi 配网；先安装 Windows 0.16.30。若原音仍在内存中，先恢复同步并等待保存后再更新；墨水屏及 K80 实机待验收。"
   }
 }
