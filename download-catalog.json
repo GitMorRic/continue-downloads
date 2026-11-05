@@ -24,10 +24,17 @@
     "channel": "自托管开发测试版"
   },
   "firmware": {
-    "version": "1.0.46",
-    "url": "https://github.com/GitMorRic/continue-downloads/releases/download/firmware-1.0.46/Continue-Board-1.0.46.continue-firmware",
-    "checksumUrl": "https://github.com/GitMorRic/continue-downloads/releases/download/firmware-1.0.46/SHA256SUMS.txt",
+    "version": "1.0.58",
+    "url": "https://github.com/GitMorRic/continue-downloads/releases/download/firmware-1.0.58/Continue-Board-1.0.58.continue-firmware",
+    "checksumUrl": "https://github.com/GitMorRic/continue-downloads/releases/download/firmware-1.0.58/SHA256SUMS.txt",
     "status": "signed-preview",
-    "message": "云设备可整理接续卡和生成未发表草稿；需要云 1.35 与 Windows 0.16.32。原话保留，旧录音手势不变。原音仍在内存时先保存；真实模型与实机待验收。"
+    "message": "笔记内持续显示追加，精简操作菜单，Action 长按电脑听写。需要匹配云代码契约 1.42 与桌面 0.16.34。已完成软件联测与实机读回，录音中屏显及物理 Action 尚待验收。"
+  },
+  "desktopPreview": {
+    "version": "0.16.34",
+    "url": "https://github.com/GitMorRic/continue-downloads/releases/download/0.16.34/Continue_0.16.34_x64-setup.exe",
+    "checksumUrl": "https://github.com/GitMorRic/continue-downloads/releases/download/0.16.34/SHA256SUMS.txt",
+    "channel": "开发验证版",
+    "message": "笔记内追加与 Action 电脑听写；本机 GPU 联测通过，实体录音中屏显待验收。不会替换稳定自动更新通道。"
   }
 }
