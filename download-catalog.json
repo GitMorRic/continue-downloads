@@ -10,9 +10,9 @@
     "channel": "开发测试版"
   },
   "desktop": {
-    "version": "0.16.40",
-    "url": "https://github.com/GitMorRic/continue-downloads/releases/download/0.16.40/Continue_0.16.40_x64-setup.exe",
-    "checksumUrl": "https://github.com/GitMorRic/continue-downloads/releases/download/0.16.40/SHA256SUMS.txt",
+    "version": "0.16.41",
+    "url": "https://app.rejoinflow.com/downloads/desktop/0.16.41/Continue_0.16.41_x64-setup.exe",
+    "checksumUrl": "https://app.rejoinflow.com/downloads/desktop/0.16.41/SHA256SUMS.txt",
     "minimum": "Windows 10 / 11 · x64",
     "channel": "应用内更新版"
   },
