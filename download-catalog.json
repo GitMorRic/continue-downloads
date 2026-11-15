@@ -1,18 +1,18 @@
 {
   "schemaVersion": 1,
-  "publicPage": "https://gitmorric.github.io/continue-downloads/",
+  "publicPage": "https://app.rejoinflow.com/download",
   "repository": "GitMorRic/continue-downloads",
   "android": {
-    "version": "0.4.0-dev",
-    "url": "https://github.com/GitMorRic/continue-downloads/releases/download/android-0.4.0-dev/Continue-Android-0.4.0-dev.apk",
-    "sha256": "3d97af05e4c2977d624c999ea4d68b0398c45b246696b7f281716dfc1e18773b",
+    "version": "0.5.0-dev",
+    "url": "https://github.com/GitMorRic/continue-downloads/releases/download/android-0.5.0-dev/Continue-Android-0.5.0-dev.apk",
+    "sha256": "082975f46a552964f37aebf8202bacd2578e14fcc8a4248ad1f520fbb7a7c348",
     "minimum": "Android 13 及以上",
     "channel": "开发测试版"
   },
   "desktop": {
-    "version": "0.16.41",
-    "url": "https://app.rejoinflow.com/downloads/desktop/0.16.41/Continue_0.16.41_x64-setup.exe",
-    "checksumUrl": "https://app.rejoinflow.com/downloads/desktop/0.16.41/SHA256SUMS.txt",
+    "version": "0.16.44",
+    "url": "https://app.rejoinflow.com/downloads/desktop/0.16.44/Continue_0.16.44_x64-setup.exe",
+    "checksumUrl": "https://app.rejoinflow.com/downloads/desktop/0.16.44/SHA256SUMS.txt",
     "minimum": "Windows 10 / 11 · x64",
     "channel": "应用内更新版"
   },
@@ -24,17 +24,10 @@
     "channel": "自托管开发测试版"
   },
   "firmware": {
-    "version": "1.0.58",
-    "url": "https://github.com/GitMorRic/continue-downloads/releases/download/firmware-1.0.58/Continue-Board-1.0.58.continue-firmware",
-    "checksumUrl": "https://github.com/GitMorRic/continue-downloads/releases/download/firmware-1.0.58/SHA256SUMS.txt",
+    "version": "1.0.136",
+    "url": "https://app.rejoinflow.com/downloads/firmware/Continue-Board-1.0.136.continue-firmware",
+    "checksumUrl": "https://github.com/GitMorRic/continue-downloads/releases/download/firmware-1.0.136/SHA256SUMS.txt",
     "status": "signed-preview",
-    "message": "笔记内持续显示追加，精简操作菜单，Action 长按电脑听写。需要匹配云代码契约 1.42 与桌面 0.16.34。已完成软件联测与实机读回，录音中屏显及物理 Action 尚待验收。"
-  },
-  "desktopPreview": {
-    "version": "0.16.34",
-    "url": "https://github.com/GitMorRic/continue-downloads/releases/download/0.16.34/Continue_0.16.34_x64-setup.exe",
-    "checksumUrl": "https://github.com/GitMorRic/continue-downloads/releases/download/0.16.34/SHA256SUMS.txt",
-    "channel": "开发验证版",
-    "message": "笔记内追加与 Action 电脑听写；本机 GPU 联测通过，实体录音中屏显待验收。不会替换稳定自动更新通道。"
+    "message": "双击 Action 免按住电脑听写、翻页键与录音反馈修复开发版。电脑需先启用听写接收；更新桌面不会自动烧录设备。"
   }
 }
